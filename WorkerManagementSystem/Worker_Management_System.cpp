@@ -1,3 +1,12 @@
+/*
+
+项目提供了以下的7个功能
+
+本文件是main函数
+
+通过对象wm来调用各个函数
+
+*/
 #include<iostream>
 #include"workerManager.h"
 #include"worker.h"
@@ -44,7 +53,7 @@ int main()
 			wm.Clean_File();
 			break;
 		default:
-			system("cls");//清屏
+			system("cls");
 			break;
 		}
 	}
