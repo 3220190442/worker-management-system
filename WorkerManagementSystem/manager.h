@@ -1,4 +1,4 @@
-//经理，也继承worker.h
+//经理，继承worker.h
 #pragma once
 #include"worker.h"
 #include<iostream>
